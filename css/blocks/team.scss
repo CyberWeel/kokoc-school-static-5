@@ -18,13 +18,14 @@
     color: $black;
   }
 
-  &__members {}
+  &__members {
+    display: flex;
+  }
 
   &__member {
     width: rem(223px);
     margin-right: rem(16px);
     text-align: center;
-    float: left;
 
     &:last-child {
       margin-right: 0;
