@@ -5,15 +5,15 @@
   justify-content: center;
   height: 100%;
   overflow: hidden;
-  background-image:
-    url(./../img/green/malina.png),
-    url(./../img/green/chernika.png),
-    url(./../img/green/paporotnik.png);
-  background-repeat: no-repeat;
-  background-position: bottom -57px left, top -57px right, top -289px right;
 
   &__outer {
     height: 100vh;
+    background-image:
+      url(./../img/green/malina.png),
+      url(./../img/green/chernika.png),
+      url(./../img/green/paporotnik.png);
+    background-repeat: no-repeat;
+    background-position: bottom -57px left, top -57px right, top -289px right;
   }
 
   &__heading {
@@ -24,14 +24,13 @@
     color: $black;
   }
 
-  &__members {
-    display: flex;
-  }
+  &__members {}
 
   &__member {
     width: rem(223px);
     margin-right: rem(16px);
     text-align: center;
+    float: left;
 
     &:last-child {
       margin-right: 0;
